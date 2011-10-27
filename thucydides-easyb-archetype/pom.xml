@@ -10,6 +10,7 @@
 
   <artifactId>thucydides-easyb-archetype</artifactId>
   <name>thucydides-easyb-archetype</name>
+  <description>Thucydides automated acceptance testing project using Selenium 2, JUnit and easyb</description>
 
   <build>
     <extensions>
