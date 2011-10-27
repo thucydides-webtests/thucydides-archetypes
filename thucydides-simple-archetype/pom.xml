@@ -4,10 +4,11 @@
   <parent>
       <artifactId>thucydides</artifactId>
       <groupId>net.thucydides</groupId>
-      <version>0.4.16-SNAPSHOT</version>
+      <version>0.4.16</version>
   </parent>
 
   <artifactId>thucydides-simple-archetype</artifactId>   
+  <version>0.4.16-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
 
   <name>thucydides-simple-archetype</name>
