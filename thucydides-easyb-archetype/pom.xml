@@ -5,7 +5,7 @@
   <parent>
       <artifactId>thucydides-archetypes</artifactId>
       <groupId>net.thucydides</groupId>
-      <version>0.4.17-SNAPSHOT</version>
+      <version>0.4.17</version>
   </parent>
 
   <artifactId>thucydides-easyb-archetype</artifactId>
