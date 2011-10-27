@@ -9,8 +9,15 @@
   </parent>
 
   <artifactId>thucydides-archetypes</artifactId>
-  <name>thucydides-archetypes</name> 
+  <name>thucydides-archetypes</name>  
+  <version>0.4.16-SNAPSHOT</version>
   <packaging>pom</packaging>
+         
+  <scm>
+      <connection>scm:git:git@github.com:thucydides-webtests/thucydides-archetypes.git</connection>
+      <developerConnection>scm:git:git@github.com:thucydides-webtests/thucydides-archetypes.git</developerConnection>
+      <url>scm:git:git@github.com:thucydides-webtests/thucydides-archetypes.git</url>
+  </scm>
 
   <modules> 
 	<module>thucydides-simple-archetype</module>
