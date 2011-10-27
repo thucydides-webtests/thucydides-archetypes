@@ -11,7 +11,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <thucydides.version>0.4.16-SNAPSHOT</thucydides.version>
+        <thucydides.version>${version}</thucydides.version>  
+		<webdriver.driver>firefox</webdriver.driver>
     </properties>
 
     <dependencies>
@@ -52,6 +53,9 @@
                 <version>2.10</version>
                 <configuration>
                     <argLine>-Xmx512m</argLine>
+                   <systemPropertyVariables>
+                        <webdriver.driver>${webdriver.driver}</webdriver.driver>
+                    </systemPropertyVariables>
                 </configuration>
             </plugin>
             <plugin>
