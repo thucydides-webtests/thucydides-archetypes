@@ -10,7 +10,7 @@
 
   <artifactId>thucydides-archetypes</artifactId>
   <name>thucydides-archetypes</name>  
-  <version>0.4.16-SNAPSHOT</version>
+  <version>0.4.16</version>
   <packaging>pom</packaging>
          
   <scm>
