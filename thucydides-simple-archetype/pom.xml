@@ -7,27 +7,11 @@
       <version>0.4.19-SNAPSHOT</version>
   </parent>
 
-  <artifactId>thucydides-simple-archetype</artifactId> 
+  <groupId>net.thucydides</groupId>
+  <artifactId>thucydides-simple-archetype</artifactId>     
   <packaging>maven-archetype</packaging>
 
   <name>thucydides-simple-archetype</name>
-
-  <build>
-    <extensions>
-      <extension>
-        <groupId>org.apache.maven.archetype</groupId>
-        <artifactId>archetype-packaging</artifactId>
-        <version>2.0</version>
-      </extension>
-    </extensions>
-
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <artifactId>maven-archetype-plugin</artifactId>
-          <version>2.0</version>
-        </plugin>
-      </plugins>
-    </pluginManagement>
-  </build>
+   
+  <description>Thucydides automated acceptance testing project using Selenium 2 and JUnit</description>
 </project>

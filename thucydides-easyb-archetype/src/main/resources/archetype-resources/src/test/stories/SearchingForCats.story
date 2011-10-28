@@ -1,7 +1,10 @@
-package com.wakaleo.webtests.wikipedia
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+package ${package}
 
-import com.wakaleo.webtests.wikipedia.steps.EndUserSteps
-import com.wakaleo.webtests.wikipedia.requirements.Application.Search.SearchBySingleKeyword
+import ${package}.steps.EndUserSteps
+import ${package}.requirements.Application.Search.SearchBySingleKeyword
 
 using "thucydides"
 

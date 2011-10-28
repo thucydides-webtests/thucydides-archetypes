@@ -11,8 +11,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <thucydides.version>0.4.16</thucydides.version>
-		<webdriver.driver>firefox</webdriver.driver>
+        <thucydides.version>0.4.16</thucydides.version>   
+	    <webdriver.driver>firefox</webdriver.driver>
     </properties>
 
     <dependencies>
@@ -66,11 +66,11 @@
                     <source>1.5</source>
                     <target>1.5</target>
                 </configuration>
-            </plugin>        
+            </plugin>
             <plugin>
                 <groupId>net.thucydides.maven.plugins</groupId>
                 <artifactId>maven-thucydides-plugin</artifactId>
-                <version>${thucydides.version}</version> 
+                <version>${thucydides.version}</version>
             </plugin>
         </plugins>
     </build>

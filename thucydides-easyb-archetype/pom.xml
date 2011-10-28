@@ -9,25 +9,10 @@
   </parent>
 
   <artifactId>thucydides-easyb-archetype</artifactId>
+  <packaging>maven-archetype</packaging>
+
   <name>thucydides-easyb-archetype</name>
-  <description>Thucydides automated acceptance testing project using Selenium 2, JUnit and easyb</description>
 
-  <build>
-    <extensions>
-      <extension>
-        <groupId>org.apache.maven.archetype</groupId>
-        <artifactId>archetype-packaging</artifactId>
-        <version>2.0</version>
-      </extension>
-    </extensions>
+  <description>Thucydides automated acceptance testing project using Selenium 2, JUnit and easyb</description>   
 
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <artifactId>maven-archetype-plugin</artifactId>
-          <version>2.0</version>
-        </plugin>
-      </plugins>
-    </pluginManagement>
-  </build>
 </project>

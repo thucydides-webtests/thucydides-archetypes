@@ -3,13 +3,14 @@
 #set( $symbol_escape = '\' )
 package ${package}.steps;
 
-import ${package}.pages.HomePage;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.pages.Pages;
 import net.thucydides.core.steps.ScenarioSteps;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
+
+import ${package}.pages.HomePage;
 
 public class EndUserSteps extends ScenarioSteps {
 

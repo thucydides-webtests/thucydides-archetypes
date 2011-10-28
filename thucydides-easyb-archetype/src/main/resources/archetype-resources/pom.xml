@@ -11,7 +11,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <thucydides.version>0.4.16</thucydides.version>
+        <thucydides.version>0.4.16</thucydides.version>   
+	    <webdriver.driver>firefox</webdriver.driver>
     </properties>
 
     <dependencies>
@@ -92,7 +93,6 @@
                     <storyType>html</storyType>
                     <storyReport>target/easyb/easyb.html</storyReport>
                     <easybTestDirectory>src/test/stories</easybTestDirectory>
-                    <parallel>true</parallel>
                     <jvmArguments>-Xmx512m -Dwebdriver.driver=${webdriver.driver}</jvmArguments>
                 </configuration>
             </plugin>

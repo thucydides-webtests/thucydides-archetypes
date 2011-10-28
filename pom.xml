@@ -1,27 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-  <parent>
-      <artifactId>thucydides</artifactId>
-      <groupId>net.thucydides</groupId>
-      <version>0.4.16</version>
-  </parent>
+    <parent>
+        <artifactId>thucydides</artifactId>
+        <groupId>net.thucydides</groupId>
+        <version>0.4.16</version>
+    </parent>
 
-  <artifactId>thucydides-archetypes</artifactId>
-  <name>thucydides-archetypes</name>  
-  <description>Thucydides automated acceptance testing project using Selenium 2 and JUnit</description>
-  <version>0.4.19-SNAPSHOT</version>
-  <packaging>pom</packaging>
-         
-  <scm>
-      <connection>scm:git:git@github.com:thucydides-webtests/thucydides-archetypes.git</connection>
-      <developerConnection>scm:git:git@github.com:thucydides-webtests/thucydides-archetypes.git</developerConnection>
-      <url>scm:git:git@github.com:thucydides-webtests/thucydides-archetypes.git</url>
-  </scm>
+    <artifactId>thucydides-archetypes</artifactId>
+    <name>thucydides-archetypes</name>
+    <description>Thucydides automated acceptance testing project using Selenium 2 and JUnit</description>
+    <version>0.4.19-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
-  <modules> 
-	<module>thucydides-simple-archetype</module>
-	<module>thucydides-easyb-archetype</module>
-  </modules>
+    <scm>
+        <connection>scm:git:git@github.com:thucydides-webtests/thucydides-archetypes.git</connection>
+        <developerConnection>scm:git:git@github.com:thucydides-webtests/thucydides-archetypes.git</developerConnection>
+        <url>scm:git:git@github.com:thucydides-webtests/thucydides-archetypes.git</url>
+    </scm>
+
+
+  <build>
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.archetype</groupId>
+        <artifactId>archetype-packaging</artifactId>
+        <version>2.1</version>
+      </extension>
+    </extensions>
+
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <artifactId>maven-archetype-plugin</artifactId>
+          <version>2.1</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
+    <modules>
+        <module>thucydides-simple-archetype</module>
+        <module>thucydides-easyb-archetype</module>
+    </modules>
 </project>
