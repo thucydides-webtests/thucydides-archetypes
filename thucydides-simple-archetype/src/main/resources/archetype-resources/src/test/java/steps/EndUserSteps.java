@@ -3,14 +3,17 @@
 #set( $symbol_escape = '\' )
 package ${package}.steps;
 
+import ${package}.pages.SearchPage;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.pages.Pages;
 import net.thucydides.core.steps.ScenarioSteps;
 
+import static ch.lambdaj.Lambda.join;
 import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.containsString;
+import static org.hamcrest.Matchers.hasItem;
 import static org.hamcrest.Matchers.is;
-
-import ${package}.pages.HomePage;
+import static org.hamcrest.Matchers.startsWith;
 
 public class EndUserSteps extends ScenarioSteps {
 
@@ -18,33 +21,37 @@ public class EndUserSteps extends ScenarioSteps {
 		super(pages);
 	}
 
-    @Step
-    public void searches_by_keyword(String keyword) {
-        enters(keyword);
-        performs_search();
-    }
-
 	@Step
 	public void enters(String keyword) {
-        onHomePage().enter_keywords(keyword);
+        onSearchPage().enter_keywords(keyword);
 	}
 
     @Step
-    public void performs_search() {
-        onHomePage().starts_search();
+    public void starts_search() {
+        onSearchPage().starts_search();
     }
 
-    private HomePage onHomePage() {
-        return getPages().currentPageAt(HomePage.class);
+    private SearchPage onSearchPage() {
+        return getPages().currentPageAt(SearchPage.class);
+    }
+
+    private SearchPage searchPage() {
+        return getPages().currentPageAt(SearchPage.class);
     }
 
     @Step
-	public void should_see_article_with_title(String title) {
-        assertThat(onHomePage().getTitle(), is(title));
+	public void should_see_article_with_title_containing(String title) {
+        assertThat(searchPage().getResultTitles(), hasItem(containsString(title)));
 	}
 
     @Step
-    public void is_on_the_wikipedia_home_page() {
-        onHomePage().open();
+    public void is_the_google_home_page() {
+        onSearchPage().open();
+    }
+
+    @Step
+    public void looks_for(String term) {
+        enters(term);
+        starts_search();
     }
 }
