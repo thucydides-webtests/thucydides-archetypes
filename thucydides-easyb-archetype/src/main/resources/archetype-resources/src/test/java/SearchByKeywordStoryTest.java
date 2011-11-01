@@ -26,7 +26,7 @@ public class SearchByKeywordStoryTest {
     @Managed(uniqueSession = true)
     public WebDriver webdriver;
 
-    @ManagedPages(defaultUrl = "http://www.google.com")
+    @ManagedPages(defaultUrl = "http://www.google.co.nz")
     public Pages pages;
 
     @Steps
