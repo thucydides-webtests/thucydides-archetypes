@@ -17,7 +17,6 @@ import java.util.List;
 
 import static ch.lambdaj.Lambda.convert;
 
-@DefaultUrl("http://www.google.co.nz")
 public class SearchPage extends PageObject {
 
     @FindBy(name="q")
