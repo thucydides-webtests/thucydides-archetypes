@@ -10,13 +10,13 @@ thucydides.uses_steps_from EndUserSteps
 thucydides.tests_story SearchByKeyword
 
 scenario "Searching for bananas", {
-    given "the user is on the google home page", {
-        end_user.is_the_google_home_page()
+    given "the user is on the home page", {
+        end_user.is_the_home_page()
     }
-    when "the end user searches for 'bananas'", {
-        end_user.looks_for "bananas"
+    when "the end user searches for 'banana'", {
+        end_user.looks_for "banana"
     }
     then "they should see the Wikipedia article on bananas", {
-       end_user.should_see_article_with_title_containing "Banana - Wikipedia, the free encyclopedia"
+       end_user.should_see_definition_containing_words "An elongated curved fruit"
     }
 }

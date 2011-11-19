@@ -26,7 +26,7 @@ public class SearchByKeywordStoryTest {
     @Managed(uniqueSession = true)
     public WebDriver webdriver;
 
-    @ManagedPages(defaultUrl = "http://www.google.co.nz")
+    @ManagedPages(defaultUrl = "http://en.wiktionary.org/wiki/Wiktionary:Main_Page")
     public Pages pages;
 
     @Steps
@@ -35,17 +35,17 @@ public class SearchByKeywordStoryTest {
     @Issue("#WIKI-1")
     @Test
     public void searching_by_keyword_apple_should_display_the_corresponding_article() {
-        endUser.is_the_google_home_page();
-		endUser.looks_for("apples");
-        endUser.should_see_article_with_title_containing("Apple - Wikipedia, the free encyclopedia");
+        endUser.is_the_home_page();
+		endUser.looks_for("apple");
+        endUser.should_see_definition_containing_words("A common, round fruit");
 
     }
 
     @Test
     public void searching_by_keyword_banana_should_display_the_corresponding_article() {
-        endUser.is_the_google_home_page();
-		endUser.looks_for("bananas");
-		endUser.should_see_article_with_title_containing("Banana - Wikipedia, the free encyclopedia");
+        endUser.is_the_home_page();
+		endUser.looks_for("banana");
+		endUser.should_see_definition_containing_words("An elongated curved fruit");
     }
 
     @Pending @Test

@@ -40,12 +40,12 @@ public class EndUserSteps extends ScenarioSteps {
     }
 
     @Step
-	public void should_see_article_with_title_containing(String title) {
-        assertThat(searchPage().getResultTitles(), hasItem(containsString(title)));
+	public void should_see_definition_containing_words(String terms) {
+        assertThat(searchPage().getDefinitions(), hasItem(containsString(terms)));
 	}
 
     @Step
-    public void is_the_google_home_page() {
+    public void is_the_home_page() {
         onSearchPage().open();
     }
 

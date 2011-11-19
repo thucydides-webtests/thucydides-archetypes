@@ -17,13 +17,13 @@ import java.util.List;
 
 import static ch.lambdaj.Lambda.convert;
 
-@DefaultUrl("http://www.google.co.nz")
+@DefaultUrl("http://en.wiktionary.org/wiki/Wiktionary:Main_Page")
 public class SearchPage extends PageObject {
 
-    @FindBy(name="q")
+    @FindBy(name="search")
 	private WebElement searchInput;
 	
-	@FindBy(name="bngG")
+	@FindBy(name="go")
 	private WebElement searchButton;
 	
 	public SearchPage(WebDriver driver) {
@@ -35,16 +35,16 @@ public class SearchPage extends PageObject {
 	}
 
     public void starts_search() {
-        searchInput.sendKeys(Keys.ENTER);
-        waitForRenderedElements(By.xpath("//span[.='Next']"));
+        searchButton.click();
     }
 
-    public List<String> getResultTitles() {
-        List<WebElement> results = getDriver().findElements(By.cssSelector(".r"));
-        return convert(results, new ExtractTitle());
+    public List<String> getDefinitions() {
+        WebElement definitionList = getDriver().findElement(By.tagName("ol"));
+        List<WebElement> results = definitionList.findElements(By.tagName("li"));
+        return convert(results, new ExtractDefinition());
     }
 
-    class ExtractTitle implements Converter<WebElement, String> {
+    class ExtractDefinition implements Converter<WebElement, String> {
         public String convert(WebElement from) {
             return from.getText();
         }
