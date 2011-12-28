@@ -3,7 +3,7 @@
 #set( $symbol_escape = '\' )
 package ${package}.steps;
 
-import ${package}.pages.SearchPage;
+import ${package}.pages.DictionaryPage;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.pages.Pages;
 import net.thucydides.core.steps.ScenarioSteps;
@@ -17,36 +17,36 @@ import static org.hamcrest.Matchers.startsWith;
 
 public class EndUserSteps extends ScenarioSteps {
 
-	public EndUserSteps(Pages pages) {
-		super(pages);
-	}
+    public EndUserSteps(Pages pages) {
+        super(pages);
+    }
 
-	@Step
-	public void enters(String keyword) {
-        onSearchPage().enter_keywords(keyword);
-	}
+    @Step
+    public void enters(String keyword) {
+        onDictionaryPage().enter_keywords(keyword);
+    }
 
     @Step
     public void starts_search() {
-        onSearchPage().starts_search();
+        onDictionaryPage().lookup_terms();
     }
 
-    private SearchPage onSearchPage() {
-        return getPages().currentPageAt(SearchPage.class);
+    private DictionaryPage onDictionaryPage() {
+        return getPages().currentPageAt(DictionaryPage.class);
     }
 
-    private SearchPage searchPage() {
-        return getPages().currentPageAt(SearchPage.class);
+    private DictionaryPage DictionaryPage() {
+        return getPages().currentPageAt(DictionaryPage.class);
     }
 
     @Step
-	public void should_see_definition_containing_words(String terms) {
-        assertThat(searchPage().getDefinitions(), hasItem(containsString(terms)));
-	}
+    public void should_see_definition_containing_words(String terms) {
+        assertThat(DictionaryPage().getDefinitions(), hasItem(containsString(terms)));
+    }
 
     @Step
     public void is_the_home_page() {
-        onSearchPage().open();
+        onDictionaryPage().open();
     }
 
     @Step

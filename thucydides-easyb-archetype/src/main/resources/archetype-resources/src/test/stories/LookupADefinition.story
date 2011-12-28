@@ -9,7 +9,7 @@ thucydides.uses_default_base_url "http://en.wiktionary.org/wiki/Wiktionary:Main_
 thucydides.uses_steps_from EndUserSteps
 thucydides.tests_story SearchByKeyword
 
-scenario "Searching for the definition of 'apple'", {
+scenario "Looking up the definition of 'apple'", {
     given "the user is on the Wikionary home page", {
         end_user.is_the_home_page()
     }

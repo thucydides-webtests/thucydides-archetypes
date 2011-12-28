@@ -18,36 +18,38 @@ import java.util.List;
 import static ch.lambdaj.Lambda.convert;
 
 @DefaultUrl("http://en.wiktionary.org/wiki/Wiktionary:Main_Page")
-public class SearchPage extends PageObject {
+public class DictionaryPage extends PageObject {
 
     @FindBy(name="search")
-	private WebElement searchInput;
+	private WebElement searchTerms;
 	
 	@FindBy(name="go")
-	private WebElement searchButton;
+	private WebElement lookupButton;
 	
-	public SearchPage(WebDriver driver) {
+	public DictionaryPage(WebDriver driver) {
 		super(driver);
 	}
 
 	public void enter_keywords(String keyword) {
-		searchInput.sendKeys(keyword);
+        element(searchTerms).type(keyword);
 	}
 
-    public void starts_search() {
-        searchButton.click();
+    public void lookup_terms() {
+        element(lookupButton).click();
     }
 
     public List<String> getDefinitions() {
         WebElement definitionList = getDriver().findElement(By.tagName("ol"));
         List<WebElement> results = definitionList.findElements(By.tagName("li"));
-        return convert(results, new ExtractDefinition());
+        return convert(results, toStrings());
     }
 
-    class ExtractDefinition implements Converter<WebElement, String> {
-        public String convert(WebElement from) {
-            return from.getText();
-        }
+    private Converter<WebElement, String> toStrings() {
+        return new Converter<WebElement, String>() {
+            public String convert(WebElement from) {
+                return from.getText();
+            }
+        };
     }
 }
 

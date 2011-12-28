@@ -34,7 +34,7 @@ public class LookupADefinitionStoryTest {
 
     @Issue("#WIKI-1")
     @Test
-    public void searching_by_keyword_apple_should_display_the_corresponding_article() {
+    public void looking_up_the_definition_of_apple_should_display_the_corresponding_article() {
         endUser.is_the_home_page();
 		endUser.looks_for("apple");
         endUser.should_see_definition_containing_words("A common, round fruit");
@@ -42,7 +42,7 @@ public class LookupADefinitionStoryTest {
     }
 
     @Test
-    public void searching_by_keyword_banana_should_display_the_corresponding_article() {
+    public void slooking_up_the_definition_of_banana_should_display_the_corresponding_article() {
         endUser.is_the_home_page();
 		endUser.looks_for("banana");
 		endUser.should_see_definition_containing_words("An elongated curved fruit");
