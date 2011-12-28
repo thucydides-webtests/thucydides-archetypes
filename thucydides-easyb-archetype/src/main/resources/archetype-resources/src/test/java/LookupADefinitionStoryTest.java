@@ -21,7 +21,7 @@ import ${package}.steps.EndUserSteps;
 
 @Story(Application.Search.SearchByKeyword.class)
 @RunWith(ThucydidesRunner.class)
-public class SearchByKeywordStoryTest {
+public class LookupADefinitionStoryTest {
 
     @Managed(uniqueSession = true)
     public WebDriver webdriver;

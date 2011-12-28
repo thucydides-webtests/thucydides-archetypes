@@ -45,7 +45,7 @@ public class EndUserSteps extends ScenarioSteps {
 	}
 
     @Step
-    public void is_the_home_page() {
+         public void is_the_home_page() {
         onSearchPage().open();
     }
 
