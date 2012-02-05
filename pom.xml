@@ -11,7 +11,7 @@
     <artifactId>thucydides-archetypes</artifactId>
     <name>thucydides-archetypes</name>
     <description>Thucydides automated acceptance testing project using Selenium 2 and JUnit</description>
-    <version>0.7.4-SNAPSHOT</version>
+    <version>0.7.4</version>
     <packaging>pom</packaging>
 
     <scm>
