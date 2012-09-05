@@ -5,13 +5,13 @@
     <parent>
         <artifactId>thucydides</artifactId>
         <groupId>net.thucydides</groupId>
-        <version>0.7.10</version>
+        <version>0.9.18</version>
     </parent>
 
     <artifactId>thucydides-archetypes</artifactId>
     <name>thucydides-archetypes</name>
     <description>Thucydides automated acceptance testing project using Selenium 2 and JUnit</description>
-    <version>0.8.27-SNAPSHOT</version>
+    <version>0.9.18</version>
     <packaging>pom</packaging>
 
     <scm>
