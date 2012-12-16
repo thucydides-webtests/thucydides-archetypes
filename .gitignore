@@ -1,3 +1,5 @@
+*.ipr
+*.iws
 .idea
 *.iml
 .DS_Store
