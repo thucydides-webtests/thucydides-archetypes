@@ -11,7 +11,7 @@
   <artifactId>thucydides-jbehave-archetype</artifactId>
   <packaging>maven-archetype</packaging>
 
-  <name>thucydides-easyb-archetype</name>
+  <name>thucydides-jbehave-archetype</name>
 
   <description>Thucydides automated acceptance testing project using Selenium 2, JUnit and easyb</description>   
 
