@@ -4,6 +4,24 @@
     <list default="true" id="f49156dd-54b4-43af-b41f-12b338f447aa" name="Default" comment="" />
     <ignored path="thucydides-jbehave-archetype.iws" />
     <ignored path=".idea/workspace.xml" />
+    <file path="$PROJECT_DIR$/target/jbehave/stories.LookupADefinition.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355647449566" ignored="false" />
+    <file path="$PROJECT_DIR$/target/jbehave/BeforeStories.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355647449566" ignored="false" />
+    <file path="$PROJECT_DIR$/target/jbehave/view/xref.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355647449566" ignored="false" />
+    <file path="/AcceptanceTestSuite.java" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355640914088" ignored="false" />
+    <file path="/EndUserSteps.java" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355641080734" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../../thucydides/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355647071719" ignored="false" />
+    <file path="$PROJECT_DIR$/target/site/thucydides/b365e3e1949540a0881d770cab7054cd6f60afa69db2729a0482af7b8f9f4bed.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355647449566" ignored="false" />
+    <file path="$PROJECT_DIR$/target/site/thucydides/a0c1e4283eabf6e090ceb9015b2f009e5069cb815c270ac427a1265d4cb04b4a.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355647449566" ignored="false" />
+    <file path="/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355646935986" ignored="false" />
+    <file path="$PROJECT_DIR$/target/jbehave/AfterStories.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355647449566" ignored="false" />
+    <file path="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355647449566" ignored="false" />
+    <file path="/a.dummy" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355647499615" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../../thucydides/thucydides-core/src/test/java/net/thucydides/core/reports/html/screenshots/WhenReformattingScreenshots.java" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355647958470" ignored="false" />
+    <file path="/WhenReformattingScreenshots.java" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355647578879" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../../thucydides/thucydides-core/src/main/java/net/thucydides/core/model/Screenshot.java" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355648035061" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../../thucydides/thucydides-core/src/main/java/net/thucydides/core/model/ErrorMessageFormatter.java" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355648145108" ignored="false" />
+    <file path="/ErrorMessageFormatter.java" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355648144059" ignored="false" />
+    <file path="/LookupADefinition.story" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355649600638" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +36,9 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
         <option name="NOTIFY_UNCAUGHT" value="true" />
@@ -26,6 +46,7 @@
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
         <option name="COUNT_FILTER" value="0" />
         <option name="CONDITION_ENABLED" value="false" />
@@ -41,6 +62,7 @@
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
         <option name="COUNT_FILTER" value="0" />
         <option name="CONDITION_ENABLED" value="false" />
@@ -53,6 +75,7 @@
     <breakpoint_rules />
     <ui_properties />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="thucydides-jbehave-archetype" />
   </component>
@@ -61,7 +84,7 @@
       <file leaf-file-name="LookupADefinition.story" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/stories/LookupADefinition.story">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="44" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
+            <state line="7" column="143" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -70,28 +93,19 @@
       <file leaf-file-name="AcceptanceTestSuite.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/jbehave/AcceptanceTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="44" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
+            <state line="8" column="0" selection-start="139" selection-end="224" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThucydidesSystemProperty.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/net/thucydides/thucydides-core/0.9.0-RC3/thucydides-core-0.9.0-RC3-sources.jar!/net/thucydides/core/ThucydidesSystemProperty.java">
+      <file leaf-file-name="FirefoxProfileEnhancer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/net/thucydides/thucydides-core/0.9.0-RC3/thucydides-core-0.9.0-RC3-sources.jar!/net/thucydides/core/webdriver/firefox/FirefoxProfileEnhancer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="193" column="48" selection-start="6142" selection-end="6149" vertical-scroll-proportion="-26.576923">
+            <state line="10" column="18" selection-start="306" selection-end="328" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FirefoxProfileEnhancer.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="jar://$MAVEN_REPOSITORY$/net/thucydides/thucydides-core/0.9.0-RC3/thucydides-core-0.9.0-RC3-sources.jar!/net/thucydides/core/webdriver/firefox/FirefoxProfileEnhancer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="18" selection-start="306" selection-end="328" vertical-scroll-proportion="0.07585335">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -108,7 +122,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="45" selection-start="818" selection-end="818" vertical-scroll-proportion="0.0">
+            <state line="15" column="141" selection-start="751" selection-end="751" vertical-scroll-proportion="-8.653846">
               <folding />
             </state>
           </provider>
@@ -117,7 +131,7 @@
       <file leaf-file-name="EndUserSteps.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/EndUserSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="47" selection-start="890" selection-end="890" vertical-scroll-proportion="0.0">
+            <state line="16" column="13" selection-start="481" selection-end="481" vertical-scroll-proportion="-9.230769">
               <folding />
             </state>
           </provider>
@@ -126,16 +140,18 @@
       <file leaf-file-name="DefinitionSteps.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/jbehave/DefinitionSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="12" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="7" column="0" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DictionaryPage.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DictionaryPage.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/DictionaryPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="233" selection-end="464" vertical-scroll-proportion="0.0">
+            <state line="4" column="13" selection-start="112" selection-end="112" vertical-scroll-proportion="0.13921113">
               <folding />
             </state>
           </provider>
@@ -155,10 +171,10 @@
         <option value="$PROJECT_DIR$/src/test/stories/LookupADefinition.story" />
         <option value="$PROJECT_DIR$/src/test/java/LookupADefinitionStoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/AcceptanceTestSuite.java" />
-        <option value="$PROJECT_DIR$/src/test/java/jbehave/AcceptanceTestSuite.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/resources/stories/LookupADefinition.story" />
         <option value="$PROJECT_DIR$/src/test/java/steps/DefinitionSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/jbehave/AcceptanceTestSuite.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/stories/LookupADefinition.story" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/jbehave/DefinitionSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/EndUserSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/DictionaryPage.java" />
@@ -169,7 +185,6 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
-        <option name="keepSourceFolders" value="false" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -178,8 +193,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1600" />
-    <option name="height" value="961" />
+    <option name="width" value="1440" />
+    <option name="height" value="812" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -217,7 +232,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -236,132 +250,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thucydides-jbehave-archetype" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="archetype-resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stories" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thucydides-jbehave-archetype" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="archetype-resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="steps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thucydides-jbehave-archetype" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="archetype-resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jbehave" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thucydides-jbehave-archetype" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="archetype-resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="preferences.externalResources" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="options.lastSelected" value="org.jetbrains.plugins.scala.debugger.filters.ScalaDebuggerSettingsConfigurable" />
     <property name="recentsLimit" value="5" />
-    <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -399,23 +306,7 @@
       <setting name="params" value="" />
       <setting name="workDir" value="$PROJECT_DIR$" />
       <setting name="debug" value="false" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="EasybRunConfigurationType" factoryName="Easyb Specification">
-      <module name="" />
-      <setting name="specificationPath" value="" />
-      <setting name="jvmParameters" value="" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -423,12 +314,7 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-        <option name="PhingTarget" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
@@ -441,13 +327,7 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-        <option name="PhingTarget" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" runner="idea" />
@@ -462,13 +342,7 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-        <option name="PhingTarget" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" runner="idea" />
@@ -489,17 +363,16 @@
       </option>
       <envs />
       <patterns />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-        <option name="PhingTarget" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="JUnit.AcceptanceTestSuite" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AcceptanceTestSuite" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -533,31 +406,33 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1600" height="961" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1440" height="812" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938388" sideWeight="0.16559279" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297362" sideWeight="0.4977109" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.4977109" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23518041" sideWeight="0.6706161" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938388" sideWeight="0.8298969" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23472223" sideWeight="0.67224544" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32775453" sideWeight="0.8298969" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -584,7 +459,6 @@
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
-    <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
@@ -594,9 +468,11 @@
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
     <option name="LAST_COMMIT_MESSAGE" />
@@ -621,24 +497,25 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/net/thucydides/thucydides-core/0.9.0-RC3/thucydides-core-0.9.0-RC3-sources.jar!/net/thucydides/core/webdriver/firefox/FirefoxProfileEnhancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="18" selection-start="306" selection-end="328" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/net/thucydides/thucydides-jbehave-plugin/0.9.0-RC4/thucydides-jbehave-plugin-0.9.0-RC4-sources.jar!/net/thucydides/jbehave/ThucydidesJUnitStories.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="35" selection-start="1403" selection-end="1425" vertical-scroll-proportion="0.0" />
+        <state line="33" column="35" selection-start="1403" selection-end="1425" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="45" selection-start="818" selection-end="818" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/LookupADefinition.story">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="44" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/jbehave/DefinitionSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="12" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
+        <state line="19" column="45" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -650,6 +527,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/jbehave/DefinitionSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="12" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/DictionaryPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="233" selection-end="464" vertical-scroll-proportion="0.0">
@@ -657,25 +543,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/jbehave/AcceptanceTestSuite.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/net/thucydides/thucydides-jbehave-plugin/0.9.0-RC4/thucydides-jbehave-plugin-0.9.0-RC4-sources.jar!/net/thucydides/jbehave/ThucydidesJUnitStories.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="44" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
+        <state line="33" column="35" selection-start="1403" selection-end="1425" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/thucydides/thucydides-core/0.9.0-RC3/thucydides-core-0.9.0-RC3-sources.jar!/net/thucydides/core/ThucydidesSystemProperty.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/net/thucydides/thucydides-core/0.9.0-RC3/thucydides-core-0.9.0-RC3-sources.jar!/net/thucydides/core/webdriver/firefox/FirefoxProfileEnhancer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="193" column="48" selection-start="6142" selection-end="6149" vertical-scroll-proportion="-26.576923">
+        <state line="10" column="18" selection-start="306" selection-end="328" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/thucydides/thucydides-core/0.9.0-RC3/thucydides-core-0.9.0-RC3-sources.jar!/net/thucydides/core/webdriver/firefox/FirefoxProfileEnhancer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/net/thucydides/thucydides-core/0.9.82-SNAPSHOT/thucydides-core-0.9.82-SNAPSHOT.jar!/net/thucydides/core/pages/Pages.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="306" selection-end="328" vertical-scroll-proportion="0.07585335">
+        <state line="34" column="63" selection-start="1605" selection-end="1605" vertical-scroll-proportion="0.35368958">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/thucydides/thucydides-core/0.9.0-RC3/thucydides-core-0.9.0-RC3-sources.jar!/net/thucydides/core/ThucydidesSystemProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="193" column="48" selection-start="6107" selection-end="6149" vertical-scroll-proportion="0.034722224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/LookupADefinition.story">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="143" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="141" selection-start="751" selection-end="751" vertical-scroll-proportion="-8.653846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/jbehave/AcceptanceTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="139" selection-end="224" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/jbehave/DefinitionSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/EndUserSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="481" selection-end="481" vertical-scroll-proportion="-9.230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/DictionaryPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="112" selection-end="112" vertical-scroll-proportion="0.13921113">
           <folding />
         </state>
       </provider>

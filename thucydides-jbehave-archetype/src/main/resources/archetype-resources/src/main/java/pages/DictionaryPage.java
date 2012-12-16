@@ -1,8 +1,7 @@
-//#set( $symbol_pound = '#' )
-//#set( $symbol_dollar = '$' )
-//#set( $symbol_escape = '\' )
-//package ${package}.pages;
-package pages;
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+package ${package}.pages;
 
 import ch.lambdaj.function.convert.Converter;
 import net.thucydides.core.annotations.DefaultUrl;
@@ -32,11 +31,11 @@ public class DictionaryPage extends PageObject {
     }
 
     public void enter_keywords(String keyword) {
-        element(searchTerms).type(keyword);
+        $(searchTerms).type(keyword);
     }
 
     public void lookup_terms() {
-        element(lookupButton).click();
+        $(lookupButton).click();
     }
 
     public List<String> getDefinitions() {

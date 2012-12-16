@@ -6,12 +6,6 @@ import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
 import steps.EndUserSteps;
 
-/**
- * A description goes here.
- * User: johnsmart
- * Date: 25/07/12
- * Time: 7:03 AM
- */
 public class DefinitionSteps {
 
     @Steps
