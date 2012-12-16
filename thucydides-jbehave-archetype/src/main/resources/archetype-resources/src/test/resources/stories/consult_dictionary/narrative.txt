@@ -1,0 +1,4 @@
+Search for definitions
+In order to find
+As a user
+I want to be able to update definitions in the dictionary

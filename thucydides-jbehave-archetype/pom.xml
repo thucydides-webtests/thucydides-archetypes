@@ -5,10 +5,10 @@
   <parent>
       <groupId>net.thucydides</groupId>
       <artifactId>thucydides-archetypes</artifactId>
-      <version>0.9.83-SNAPSHOT</version>
+      <version>0.9.87-SNAPSHOT</version>
   </parent>
 
-  <artifactId>thucydides-easyb-archetype</artifactId>
+  <artifactId>thucydides-jbehave-archetype</artifactId>
   <packaging>maven-archetype</packaging>
 
   <name>thucydides-easyb-archetype</name>

@@ -1,10 +1,14 @@
-package jbehave;
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+package ${package}.jbehave;
 
 import net.thucydides.core.annotations.Steps;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
-import steps.EndUserSteps;
+
+import ${package}.steps.EndUserSteps;
 
 public class DefinitionSteps {
 
