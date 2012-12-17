@@ -13,6 +13,6 @@
 
   <name>thucydides-jbehave-archetype</name>
 
-  <description>Thucydides automated acceptance testing project using Selenium 2, JUnit and easyb</description>   
+  <description>Thucydides automated acceptance testing project using Selenium 2, JUnit and JBehave</description>
 
 </project>

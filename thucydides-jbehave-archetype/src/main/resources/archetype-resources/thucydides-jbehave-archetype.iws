@@ -12,7 +12,7 @@
     <file path="$PROJECT_DIR$/../../../../../../thucydides/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355692035393" ignored="false" />
     <file path="$PROJECT_DIR$/target/site/thucydides/b365e3e1949540a0881d770cab7054cd6f60afa69db2729a0482af7b8f9f4bed.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355647449566" ignored="false" />
     <file path="$PROJECT_DIR$/target/site/thucydides/a0c1e4283eabf6e090ceb9015b2f009e5069cb815c270ac427a1265d4cb04b4a.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355647449566" ignored="false" />
-    <file path="/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355694169402" ignored="false" />
+    <file path="/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355730468120" ignored="false" />
     <file path="$PROJECT_DIR$/target/jbehave/AfterStories.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355647449566" ignored="false" />
     <file path="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355647449566" ignored="false" />
     <file path="/a.dummy" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355655711599" ignored="false" />
@@ -26,12 +26,12 @@
     <file path="$PROJECT_DIR$/../../../../../../thucydides/thucydides-test-utils/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355656238126" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../../thucydides/thucydides-core/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355692035393" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../../thucydides/thucydides-report-resources/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355692035393" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../../pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355694169402" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355730468379" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../thucydides-easyb-archetype/src/main/resources/archetype-resources/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355693607392" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../thucydides-simple-archetype/src/main/resources/archetype-resources/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355693590002" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../../../pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355693541248" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../../../thucydides-easyb-archetype/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355693532939" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../../../thucydides-simple-archetype/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355693550300" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355719536579" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../thucydides-easyb-archetype/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355719536579" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../thucydides-simple-archetype/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355719536579" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../../thucydides-jbehave/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355693298833" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../../thucydides/thucydides-sample-alternative-resources/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355656238126" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../../thucydides/thucydides-easyb-plugin/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355692035393" ignored="false" />
@@ -46,6 +46,17 @@
     <file path="$PROJECT_DIR$/../../../../../../thucydides/thucydides-core/src/test/groovy/net/thucydides/core/model/WhenFormattingShortenedErrorMessages.groovy" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355673091614" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../../thucydides/build.gradle" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355689567426" ignored="false" />
     <file path="/DefinitionSteps.java" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355693346714" ignored="false" />
+    <file path="/Dummy.txt" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355719545910" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../../../../Clients/newsmedia/gecko/build.gradle" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355719622245" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../../../../Clients/newsmedia/gecko/src/test/groovy/au/com/news/gecko/stories/functional/filter_ads/FilterAds.groovy" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355729298330" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../../../../Clients/newsmedia/gecko/src/test/groovy/au/com/news/gecko/stories/functional/browse_ads/BrowseAds.groovy" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355730024058" ignored="false" />
+    <file path="/BrowseAds.groovy" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355729598221" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../../../../Clients/newsmedia/gecko/src/main/groovy/au/com/news/gecko/steps/BuyerSteps.groovy" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355730039364" ignored="false" />
+    <file path="/BuyerSteps.groovy" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355730039916" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../../../../Clients/newsmedia/gecko/src/main/groovy/au/com/news/gecko/pages/SearchResultsPage.groovy" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355730175441" ignored="false" />
+    <file path="/SearchResultsPage.groovy" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355730072990" ignored="false" />
+    <file path="$PROJECT_DIR$/../META-INF/maven/archetype-metadata.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355732870147" ignored="false" />
+    <file path="/archetype-metadata.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355732870147" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

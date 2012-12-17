@@ -16,7 +16,7 @@
       </includes>
     </fileSet>
     <fileSet filtered="true" packaged="true" encoding="UTF-8">
-      <directory>src/test/stories</directory>
+      <directory>src/test/resources</directory>
       <includes>
         <include>**/*.story</include>
       </includes>
