@@ -15,7 +15,7 @@
     <file path="/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355730468120" ignored="false" />
     <file path="$PROJECT_DIR$/target/jbehave/AfterStories.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355647449566" ignored="false" />
     <file path="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355647449566" ignored="false" />
-    <file path="/a.dummy" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355655711599" ignored="false" />
+    <file path="/a.dummy" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355893525935" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../../thucydides/thucydides-core/src/test/java/net/thucydides/core/reports/html/screenshots/WhenReformattingScreenshots.java" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355647958470" ignored="false" />
     <file path="/WhenReformattingScreenshots.java" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355647578879" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../../thucydides/thucydides-core/src/main/java/net/thucydides/core/model/Screenshot.java" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355648035061" ignored="false" />
@@ -26,12 +26,12 @@
     <file path="$PROJECT_DIR$/../../../../../../thucydides/thucydides-test-utils/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355656238126" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../../thucydides/thucydides-core/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355692035393" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../../thucydides/thucydides-report-resources/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355692035393" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../../pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355730468379" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../../../thucydides-easyb-archetype/src/main/resources/archetype-resources/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355693607392" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../../../thucydides-simple-archetype/src/main/resources/archetype-resources/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355693590002" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../../../pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355719536579" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../../../thucydides-easyb-archetype/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355719536579" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../../../thucydides-simple-archetype/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355719536579" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355816377239" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../thucydides-easyb-archetype/src/main/resources/archetype-resources/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355893535051" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../thucydides-simple-archetype/src/main/resources/archetype-resources/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355893540058" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355893511946" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../thucydides-easyb-archetype/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355816377239" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../thucydides-simple-archetype/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355816377239" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../../thucydides-jbehave/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355693298833" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../../thucydides/thucydides-sample-alternative-resources/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355656238126" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../../thucydides/thucydides-easyb-plugin/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355692035393" ignored="false" />
@@ -40,13 +40,13 @@
     <file path="/narrative.txt" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355655935554" ignored="false" />
     <file path="/DictionaryPage.java" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355656421542" ignored="false" />
     <file path="/thucydides.properties" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355656485165" ignored="false" />
-    <file path="/fragment.java" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355656727933" ignored="false" />
+    <file path="/fragment.java" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355869069918" ignored="false" />
     <file path="$PROJECT_DIR$/target/jbehave/stories.consult_dictionary.LookupADefinition.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355657392316" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/net/thucydides/maven/plugins/maven-thucydides-plugin/0.9.82-SNAPSHOT/maven-thucydides-plugin-0.9.82-SNAPSHOT.jar!/META-INF/maven/plugin.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355688993015" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../../thucydides/thucydides-core/src/test/groovy/net/thucydides/core/model/WhenFormattingShortenedErrorMessages.groovy" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355673091614" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../../thucydides/build.gradle" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355689567426" ignored="false" />
     <file path="/DefinitionSteps.java" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355693346714" ignored="false" />
-    <file path="/Dummy.txt" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355719545910" ignored="false" />
+    <file path="/Dummy.txt" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355816398445" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../../../../Clients/newsmedia/gecko/build.gradle" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355719622245" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../../../../Clients/newsmedia/gecko/src/test/groovy/au/com/news/gecko/stories/functional/filter_ads/FilterAds.groovy" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355729298330" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../../../../Clients/newsmedia/gecko/src/test/groovy/au/com/news/gecko/stories/functional/browse_ads/BrowseAds.groovy" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355730024058" ignored="false" />
@@ -57,6 +57,12 @@
     <file path="/SearchResultsPage.groovy" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355730072990" ignored="false" />
     <file path="$PROJECT_DIR$/../META-INF/maven/archetype-metadata.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355732870147" ignored="false" />
     <file path="/archetype-metadata.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355732870147" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../../thucydides/thucydides-core/src/main/java/net/thucydides/core/ThucydidesSystemProperty.java" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355853828494" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../../thucydides/thucydides-core/src/main/java/net/thucydides/core/steps/BaseStepListener.java" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355869196544" ignored="false" />
+    <file path="/BaseStepListener.java" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355869196544" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../../thucydides/thucydides-core/src/test/java/net/thucydides/core/steps/WhenRecordingStepExecutionResults.java" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355869462731" ignored="false" />
+    <file path="/WhenRecordingStepExecutionResults.java" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355869409980" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../../thucydides/thucydides-core/src/test/groovy/net/thucydides/core/model/WhenDecidingWhetherToTakeScreenshots.groovy" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355855270449" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +161,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="28" selection-start="3834" selection-end="3854" vertical-scroll-proportion="2.2522523">
+            <state line="100" column="28" selection-start="3834" selection-end="3854" vertical-scroll-proportion="3.4722223">
               <folding />
             </state>
           </provider>
@@ -236,7 +242,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="812" />
+    <option name="height" value="578" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -556,8 +562,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="812" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1440" height="578" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -715,7 +721,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="28" selection-start="3834" selection-end="3854" vertical-scroll-proportion="2.2522523">
+        <state line="100" column="28" selection-start="3834" selection-end="3854" vertical-scroll-proportion="3.4722223">
           <folding />
         </state>
       </provider>
