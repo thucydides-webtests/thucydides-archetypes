@@ -6,7 +6,7 @@ package ${package}.steps;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.pages.Pages;
 import net.thucydides.core.steps.ScenarioSteps;
-
+import java.util.List;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.hasItem;
@@ -34,7 +34,7 @@ public class EndUserSteps extends ScenarioSteps {
 
     @Step
     public void should_see_definition_containing_words(String terms) {
-        assertThat(dictionaryPage.getDefinitions(), hasItem(containsString(terms)));
+        assertThat((List)dictionaryPage.getDefinitions(), hasItem(containsString(terms)));
     }
 
     @Step

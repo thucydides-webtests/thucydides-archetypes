@@ -11,8 +11,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <thucydides.version>0.9.88</thucydides.version>
-        <thucydides.jbehave.version>0.9.87</thucydides.jbehave.version>
+        <thucydides.version>0.9.90</thucydides.version>
+        <thucydides.jbehave.version>0.9.90</thucydides.jbehave.version>
         <webdriver.driver>firefox</webdriver.driver>
     </properties>
 
@@ -41,7 +41,6 @@
             <groupId>org.hamcrest</groupId>
             <artifactId>hamcrest-all</artifactId>
             <version>1.1</version>
-            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
