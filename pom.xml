@@ -5,7 +5,7 @@
     <parent>
         <artifactId>thucydides</artifactId>
         <groupId>net.thucydides</groupId>
-        <version>0.9.90</version>
+        <version>0.9.91</version>
     </parent>
 
     <artifactId>thucydides-archetypes</artifactId>

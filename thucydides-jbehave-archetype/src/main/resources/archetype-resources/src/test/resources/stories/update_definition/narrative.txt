@@ -1,4 +1,4 @@
 Update definition
 In order to keep the dictionary definitions up to date and accurate
-As a user
+As the dictionary maintainer
 I want to be able to update definitions in the dictionary
