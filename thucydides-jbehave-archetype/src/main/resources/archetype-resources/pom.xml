@@ -11,8 +11,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <thucydides.version>0.9.94</thucydides.version>
-        <thucydides.jbehave.version>0.9.94</thucydides.jbehave.version>
+        <thucydides.version>0.9.95</thucydides.version>
+        <thucydides.jbehave.version>0.9.95</thucydides.jbehave.version>
         <webdriver.driver>firefox</webdriver.driver>
     </properties>
 
