@@ -9,44 +9,34 @@ import net.thucydides.core.pages.Pages;
 import net.thucydides.core.steps.ScenarioSteps;
 
 import static ch.lambdaj.Lambda.join;
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.containsString;
-import static org.hamcrest.Matchers.hasItem;
-import static org.hamcrest.Matchers.is;
-import static org.hamcrest.Matchers.startsWith;
+import static org.fest.assertions.Assertions.assertThat;
 
 public class EndUserSteps extends ScenarioSteps {
 
-	public EndUserSteps(Pages pages) {
-		super(pages);
-	}
+    DictionaryPage dictionaryPage;
 
-	@Step
-	public void enters(String keyword) {
-        onDictionaryPage().enter_keywords(keyword);
-	}
+    public EndUserSteps(Pages pages) {
+        super(pages);
+    }
+
+    @Step
+    public void enters(String keyword) {
+        dictionaryPage.enter_keywords(keyword);
+    }
 
     @Step
     public void starts_search() {
-        onDictionaryPage().lookup_terms();
-    }
-
-    private DictionaryPage onDictionaryPage() {
-        return getPages().currentPageAt(DictionaryPage.class);
-    }
-
-    private DictionaryPage DictionaryPage() {
-        return getPages().currentPageAt(DictionaryPage.class);
+        dictionaryPage.lookup_terms();
     }
 
     @Step
-	public void should_see_definition_containing_words(String terms) {
-        assertThat(DictionaryPage().getDefinitions(), hasItem(containsString(terms)));
-	}
+    public void should_see_definition(String definition) {
+        assertThat(dictionaryPage.getDefinitions()).contains(definition);
+    }
 
     @Step
-         public void is_the_home_page() {
-        onDictionaryPage().open();
+    public void is_the_home_page() {
+        dictionaryPage.open();
     }
 
     @Step

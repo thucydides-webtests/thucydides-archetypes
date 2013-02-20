@@ -17,6 +17,6 @@ scenario "Looking up the definition of 'apple'", {
         end_user.looks_for "apple"
     }
     then "they should see the definition of 'apple", {
-       end_user.should_see_definition_containing_words "A common, round fruit"
+       end_user.should_see_definition "A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates."
     }
 }

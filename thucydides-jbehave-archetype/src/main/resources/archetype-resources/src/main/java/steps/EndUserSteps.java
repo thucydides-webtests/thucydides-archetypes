@@ -7,9 +7,7 @@ import net.thucydides.core.annotations.Step;
 import net.thucydides.core.pages.Pages;
 import net.thucydides.core.steps.ScenarioSteps;
 import java.util.List;
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.containsString;
-import static org.hamcrest.Matchers.hasItem;
+import static org.fest.assertions.Assertions.assertThat;
 
 import ${package}.pages.DictionaryPage;
 
@@ -19,7 +17,6 @@ public class EndUserSteps extends ScenarioSteps {
 
     public EndUserSteps(Pages pages) {
         super(pages);
-        dictionaryPage = getPages().get(DictionaryPage.class);
     }
 
     @Step
@@ -33,8 +30,8 @@ public class EndUserSteps extends ScenarioSteps {
     }
 
     @Step
-    public void should_see_definition_containing_words(String terms) {
-        assertThat((List)dictionaryPage.getDefinitions(), hasItem(containsString(terms)));
+    public void should_see_definition(String definition) {
+        assertThat(dictionaryPage.getDefinitions()).contains(definition);
     }
 
     @Step

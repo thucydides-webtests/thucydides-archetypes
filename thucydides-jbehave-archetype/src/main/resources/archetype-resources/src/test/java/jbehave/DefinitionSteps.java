@@ -25,9 +25,9 @@ public class DefinitionSteps {
         endUser.looks_for(word);
     }
 
-    @Then("they should see a definition containing the words '$definition'")
+    @Then("they should see the definition '$definition'")
     public void thenTheyShouldSeeADefinitionContainingTheWords(String definition) {
-        endUser.should_see_definition_containing_words(definition);
+        endUser.should_see_definition(definition);
     }
 
 }

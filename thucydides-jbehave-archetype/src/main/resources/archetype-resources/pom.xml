@@ -11,8 +11,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <thucydides.version>0.9.95</thucydides.version>
-        <thucydides.jbehave.version>0.9.95</thucydides.jbehave.version>
+        <thucydides.version>0.9.98</thucydides.version>
+        <thucydides.jbehave.version>0.9.98</thucydides.jbehave.version>
         <webdriver.driver>firefox</webdriver.driver>
     </properties>
 
@@ -38,9 +38,9 @@
             <version>1.6.1</version>
         </dependency>
         <dependency>
-            <groupId>org.hamcrest</groupId>
-            <artifactId>hamcrest-all</artifactId>
-            <version>1.1</version>
+            <groupId>org.easytesting</groupId>
+            <artifactId>fest-assert</artifactId>
+            <version>1.4</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
@@ -52,12 +52,6 @@
             <groupId>com.googlecode.lambdaj</groupId>
             <artifactId>lambdaj</artifactId>
             <version>2.3.3</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.hamcrest</groupId>
-                    <artifactId>hamcrest-all</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
     </dependencies>
     <build>
