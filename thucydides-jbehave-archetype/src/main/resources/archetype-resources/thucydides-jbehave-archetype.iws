@@ -9,7 +9,7 @@
     <file path="$PROJECT_DIR$/target/jbehave/view/xref.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355647449566" ignored="false" />
     <file path="/AcceptanceTestSuite.java" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355640914088" ignored="false" />
     <file path="/EndUserSteps.java" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355641080734" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../../../../thucydides/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355692035393" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../../thucydides/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1361998235785" ignored="false" />
     <file path="$PROJECT_DIR$/target/site/thucydides/b365e3e1949540a0881d770cab7054cd6f60afa69db2729a0482af7b8f9f4bed.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355647449566" ignored="false" />
     <file path="$PROJECT_DIR$/target/site/thucydides/a0c1e4283eabf6e090ceb9015b2f009e5069cb815c270ac427a1265d4cb04b4a.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355647449566" ignored="false" />
     <file path="/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355730468120" ignored="false" />
@@ -24,7 +24,7 @@
     <file path="/LookupADefinition.story" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355649600638" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../../thucydides/thucydides-junit/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355656238126" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../../thucydides/thucydides-test-utils/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355656238126" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../../../../thucydides/thucydides-core/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355692035393" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../../thucydides/thucydides-core/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1361998235785" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../../thucydides/thucydides-report-resources/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355692035393" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355909767564" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../thucydides-easyb-archetype/src/main/resources/archetype-resources/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355893535051" ignored="false" />
@@ -32,7 +32,7 @@
     <file path="$PROJECT_DIR$/../../../../../pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355909767564" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../thucydides-easyb-archetype/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355909767564" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../thucydides-simple-archetype/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355909767564" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../../../../thucydides-jbehave/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355693298833" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../../thucydides-jbehave/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1361997823943" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../../thucydides/thucydides-sample-alternative-resources/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355656238126" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../../thucydides/thucydides-easyb-plugin/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355692035393" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../../thucydides/thucydides-extensions/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355656238126" ignored="false" />
@@ -79,6 +79,9 @@
     <file path="$PROJECT_DIR$/../../../../../../thucydides/thucydides-core/src/main/java/net/thucydides/core/model/DataTable.java" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355942910466" ignored="false" />
     <file path="/DataTable.java" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355942906232" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/jbehave/jbehave-core/3.7.1/jbehave-core-3.7.1-sources.jar!/org/jbehave/core/model/ExamplesTable.java" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1355943830110" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../../thucydides/thucydides-core/src/test/java/net/thucydides/core/pages/integration/CheckingFieldContentWithTheFluentElementAPI.java" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1361998235785" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../../thucydides/thucydides-core/src/main/java/net/thucydides/core/pages/WebElementFacade.java" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1361998235785" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../../thucydides-jira-plugin/pom.xml" changelist="f49156dd-54b4-43af-b41f-12b338f447aa" time="1361998244085" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +96,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -128,6 +130,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -140,7 +143,7 @@
       <file leaf-file-name="LookupADefinition.story" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/LookupADefinition.story">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
+            <state line="5" column="0" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -176,7 +179,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="124" column="148" selection-start="4674" selection-end="4674" vertical-scroll-proportion="0.0">
+            <state line="124" column="148" selection-start="4655" selection-end="4655" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -185,7 +188,7 @@
       <file leaf-file-name="EndUserSteps.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/steps/EndUserSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="13" selection-start="474" selection-end="474" vertical-scroll-proportion="0.55282557">
+            <state line="15" column="13" selection-start="432" selection-end="432" vertical-scroll-proportion="0.2858958">
               <folding />
             </state>
           </provider>
@@ -255,10 +258,9 @@
     <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="672" />
-    <option name="y" value="401" />
-    <option name="width" value="1440" />
-    <option name="height" value="578" />
+    <option name="y" value="22" />
+    <option name="width" value="1680" />
+    <option name="height" value="958" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -402,6 +404,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -412,7 +415,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -427,9 +429,9 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -574,7 +576,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="672" y="401" width="1440" height="578" extended-state="0" />
+    <frame x="0" y="22" width="1680" height="958" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -593,7 +595,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23457676" sideWeight="0.6736402" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23439412" sideWeight="0.6736402" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32775453" sideWeight="0.8298969" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -712,7 +714,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/LookupADefinition.story">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
+        <state line="5" column="0" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -761,14 +763,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="148" selection-start="4674" selection-end="4674" vertical-scroll-proportion="0.0">
+        <state line="124" column="148" selection-start="4655" selection-end="4655" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/steps/EndUserSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="474" selection-end="474" vertical-scroll-proportion="0.55282557">
+        <state line="15" column="13" selection-start="432" selection-end="432" vertical-scroll-proportion="0.2858958">
           <folding />
         </state>
       </provider>
