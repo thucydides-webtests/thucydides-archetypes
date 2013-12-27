@@ -9,7 +9,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
+import net.thucydides.core.pages.WebElementFacade;
+
+import net.thucydides.core.annotations.findby.FindBy;
 
 import net.thucydides.core.pages.PageObject;
 
@@ -21,25 +23,21 @@ import static ch.lambdaj.Lambda.convert;
 public class DictionaryPage extends PageObject {
 
     @FindBy(name="search")
-    private WebElement searchTerms;
+    private WebElementFacade searchTerms;
 
     @FindBy(name="go")
-    private WebElement lookupButton;
-
-    public DictionaryPage(WebDriver driver) {
-        super(driver);
-    }
+    private WebElementFacade lookupButton;
 
     public void enter_keywords(String keyword) {
-        element(searchTerms).type(keyword);
+        searchTerms.type(keyword);
     }
 
     public void lookup_terms() {
-        element(lookupButton).click();
+        lookupButton.click();
     }
 
     public List<String> getDefinitions() {
-        WebElement definitionList = getDriver().findElement(By.tagName("ol"));
+        WebElementFacade definitionList = find(By.tagName("ol"));
         List<WebElement> results = definitionList.findElements(By.tagName("li"));
         return convert(results, toStrings());
     }
@@ -52,5 +50,3 @@ public class DictionaryPage extends PageObject {
         };
     }
 }
-
-

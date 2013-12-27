@@ -15,10 +15,6 @@ public class EndUserSteps extends ScenarioSteps {
 
     DictionaryPage dictionaryPage;
 
-    public EndUserSteps(Pages pages) {
-        super(pages);
-    }
-
     @Step
     public void enters(String keyword) {
         dictionaryPage.enter_keywords(keyword);
