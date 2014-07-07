@@ -26,7 +26,7 @@ public class SearchByKeywordStoryTest {
     @Managed(uniqueSession = true)
     public WebDriver webdriver;
 
-    @ManagedPages(defaultUrl = "http://en.wiktionary.org/wiki/Wiktionary:Main_Page")
+    @ManagedPages(defaultUrl = "http://en.wiktionary.org/wiki/Wiktionary")
     public Pages pages;
 
     @Steps

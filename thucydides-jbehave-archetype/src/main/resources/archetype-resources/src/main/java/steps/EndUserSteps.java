@@ -3,13 +3,15 @@
 #set( $symbol_escape = '\' )
 package ${package}.steps;
 
+import ${package}.pages.DictionaryPage;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.pages.Pages;
 import net.thucydides.core.steps.ScenarioSteps;
-import java.util.List;
-import static org.fest.assertions.Assertions.assertThat;
 
-import ${package}.pages.DictionaryPage;
+import static ch.lambdaj.Lambda.join;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.containsString;
+import static org.hamcrest.Matchers.hasItem;
 
 public class EndUserSteps extends ScenarioSteps {
 
@@ -27,7 +29,7 @@ public class EndUserSteps extends ScenarioSteps {
 
     @Step
     public void should_see_definition(String definition) {
-        assertThat(dictionaryPage.getDefinitions()).contains(definition);
+        assertThat(dictionaryPage.getDefinitions(), hasItem(containsString(definition)));
     }
 
     @Step

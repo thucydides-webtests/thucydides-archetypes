@@ -19,7 +19,7 @@ import java.util.List;
 
 import static ch.lambdaj.Lambda.convert;
 
-@DefaultUrl("http://en.wiktionary.org/wiki/Wiktionary:Main_Page")
+@DefaultUrl("http://en.wiktionary.org/wiki/Wiktionary")
 public class DictionaryPage extends PageObject {
 
     @FindBy(name="search")
