@@ -12,8 +12,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <thucydides.version>0.9.262</thucydides.version>
-        <thucydides.easyb.version>0.9.256</thucydides.easyb.version>
+        <thucydides.version>0.9.268</thucydides.version>
+        <thucydides.easyb.version>0.9.268</thucydides.easyb.version>
         <webdriver.driver>firefox</webdriver.driver>
     </properties>
 
